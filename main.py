@@ -3,7 +3,7 @@ class Calculator:
         pass
     
     def add(self, a, b):
-        return x1 + b
+        return a + b
     
     def multiply(self, a, b):
         return a * b
@@ -12,7 +12,7 @@ class Calculator:
         return a - b
 
     def divide(self, a, b):
-        if x2 != 0:
+        if b != 0:
             return a / b
         
     
