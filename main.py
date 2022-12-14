@@ -15,4 +15,8 @@ class Calculator:
         if b != 0:
             return a / b
         
+    def mod(self, a, b):
+        if a != 0:
+            return a % b
+        
     
